@@ -83,6 +83,27 @@ p.lead {
   color: #2081c3;
 }
 
+.resume-link {
+  border-radius: 0.5rem;
+  display: inline;
+  font-size: 3rem;
+}
+
+.resume-link:hover {
+  background-color: #155681 !important;
+}
+
+.resume-link a {
+  color: #fff !important;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+.resume-link a:hover {
+  color: #d9d9d9 !important;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;

@@ -78,3 +78,20 @@ p.lead {
     }
   }
 }
+.resume-link {
+  border-radius: 0.5rem;
+  display: inline;
+  font-size: 3rem;
+  &:hover {
+    background-color: darken($primary, 15%) !important;
+  }
+  a {
+    color: $white !important;
+    @include heading-font;
+    padding: 0 1rem;
+    text-decoration: none;
+    &:hover {
+      color: darken($white, 15%) !important;
+    }
+  }
+}
